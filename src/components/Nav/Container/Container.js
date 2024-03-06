@@ -1,6 +1,6 @@
 import Control from "../Controls/Control";
 import DrawerNav from "../DrawerNav/DrawerNav";
-import NavBrand from "../Nav-Brand/Navbrand";
+import NavBrand from "../Nav-Brand/NavBrand";
 import Form from "../Search-Bar/Form";
 import "./Container.css";
 

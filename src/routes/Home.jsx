@@ -1,7 +1,7 @@
 import { Fragment, useEffect, useState } from "react";
 import axios from "axios";
 import Landing from "../components/Landing/Landing";
-import FeaturedItems from "../components/Featured/Items/FetauredItems";
+import FeaturedItems from "../components/Featured/Items/FeaturedItems";
 import FeaturedCategories from "../components/Featured/Categories/FeaturedCategories";
 import { TabTitle } from "../utils/General";
 

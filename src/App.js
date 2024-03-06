@@ -16,7 +16,7 @@ import CartItemsProvider from "../src/Context/CartItemsProvider";
 import Login from "../src/components/Authentication/Login/Login";
 import Register from "../src/components/Authentication/Register/Register";
 import Wishlist from "../src/components/Wishlist";
-import WishItemsProvider from "../src/Context/WishItemsProvider";
+import WishItemsProvider from "./Context/WishItemsProvider";
 import DrawerNav from "../src/components/Nav/DrawerNav/DrawerNav";
 import Checkout from "../src/components/Checkout/Checkout";
 import SearchProvider from "../src/Context/SearchProvider";
