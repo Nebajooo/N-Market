@@ -39,12 +39,13 @@ const DrawerNav = () => {
           <ListItem key={text} disablePadding>
             <ListItemButton>
               <ListItemText>
-                <Link to="/category/men">{text}</Link>
+                <Link to={`/category/${text.toLowerCase()}`}>{text}</Link>
               </ListItemText>
             </ListItemButton>
           </ListItem>
         ))}
       </List>
+
       <List>
         <ListItem disablePadding>
           <Control />
